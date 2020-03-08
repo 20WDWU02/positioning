@@ -1,4 +1,4 @@
-# Positioning
+# Positioning Elements
 
 The **position** property specifies where your elements are positioned on your webpage.  
 
@@ -73,20 +73,20 @@ This example will move the element 50px from the top and left of the parentEleme
 
 ### Sticky
 
-Sticky elements toggle its positioning between fixed and relative depending on where you are on the page. 
+Sticky elements toggle its positioning between fixed and relative depending on where you are on the page.
 Until you get to the position you set with your top, bottom, left or right, it will be relative. But once it meets those values, it will be fixed.
 
 ```css
 
 #element{
   position: -webkit-sticky; /* Safari */
-  position: sticky; 
+  position: sticky;
   top: 0;
 }
 
 ```
 
-This example element will be relative until it reaches the top of the screen (top:0) where it will then become fixed. 
+This example element will be relative until it reaches the top of the screen (top:0) where it will then become fixed.
 
 **Note** IE/Edge 15 and earlier versions do not support sticky position.  
 **Note** If you want sticky to work on Safari you need to include the -webkit-sticky value as well.  
