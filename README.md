@@ -1,4 +1,4 @@
-# Positioning Elements
+# Positioning
 
 The **position** property specifies where your elements are positioned on your webpage.  
 
